@@ -30,7 +30,6 @@ public class Validador{
         }
 
         if (listaNumeroCPF.get(9) != digitoVerificador1){
-            System.out.println("false");
             return false;
 
         } else{
@@ -48,11 +47,11 @@ public class Validador{
             }
 
             if (listaNumeroCPF.get(10) != digitoVerificador2){
-                System.out.println("false" + digitoVerificador2);
                 return false;
             }
 
         }
+        System.out.println("true");
         return true;
     }
    
